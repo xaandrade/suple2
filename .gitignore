@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+# recuerda BORRAR las llaves manualmente antes del push.
+
+# Docker
+.dockerignore
+
+# Sistema
+.DS_Store
+Thumbs.db
